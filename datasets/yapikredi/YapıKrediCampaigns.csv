@@ -1,0 +1,51 @@
+campaign_id,card_id,merchant_id,category,title,description,condition,benefit_amount,start_date,end_date,bank_id
+yapikredi_CAMP_1,yapikredi_CARD_CUST_0373_1,MERCH_12,CAT_4,Synergistic tertiary benchmark,Sapiente voluptate rerum aut deleniti asperiores veniam ullam.,300 TL ve üzeri alışveriş,50,2025-07-13,2025-07-23,yapikredi
+yapikredi_CAMP_2,yapikredi_CARD_CUST_0162_4,MERCH_18,CAT_5,Operative disintermediate orchestration,A dolorem quibusdam aut.,150 TL ve üzeri alışveriş,50,2025-07-09,2025-07-22,yapikredi
+yapikredi_CAMP_3,yapikredi_CARD_CUST_0373_1,MERCH_2,CAT_2,Integrated radical architecture,Rerum magnam a maxime.,300 TL ve üzeri alışveriş,50,2025-07-18,2025-07-28,yapikredi
+yapikredi_CAMP_4,yapikredi_CARD_CUST_0460_1,MERCH_5,CAT_3,Progressive system-worthy portal,Neque consectetur ipsum nisi.,300 TL ve üzeri alışveriş,150,2025-07-13,2025-08-07,yapikredi
+yapikredi_CAMP_5,yapikredi_CARD_CUST_0276_3,MERCH_10,CAT_4,Front-line client-driven extranet,Veniam quod suscipit ipsa.,250 TL ve üzeri alışveriş,25,2025-07-06,2025-08-01,yapikredi
+yapikredi_CAMP_6,yapikredi_CARD_CUST_0233_2,MERCH_9,CAT_5,Upgradable modular circuit,Porro voluptatem alias pariatur occaecati.,500 TL ve üzeri alışveriş,50,2025-07-08,2025-07-25,yapikredi
+yapikredi_CAMP_7,yapikredi_CARD_CUST_0343_1,MERCH_16,CAT_3,Re-engineered impactful task-force,Expedita deleniti error voluptas fugit dolorem.,500 TL ve üzeri alışveriş,50,2025-07-13,2025-08-12,yapikredi
+yapikredi_CAMP_8,yapikredi_CARD_CUST_0098_4,MERCH_19,CAT_2,Expanded intangible installation,Quod itaque voluptate quia officiis.,300 TL ve üzeri alışveriş,100,2025-07-12,2025-07-22,yapikredi
+yapikredi_CAMP_9,yapikredi_CARD_CUST_0085_1,MERCH_1,CAT_3,Ergonomic context-sensitive strategy,Reiciendis rerum optio labore ad labore.,500 TL ve üzeri alışveriş,25,2025-07-13,2025-08-09,yapikredi
+yapikredi_CAMP_10,yapikredi_CARD_CUST_0367_2,MERCH_14,CAT_1,Total modular parallelism,Atque sed eaque aspernatur harum laudantium.,300 TL ve üzeri alışveriş,150,2025-07-13,2025-08-03,yapikredi
+yapikredi_CAMP_11,yapikredi_CARD_CUST_0164_1,MERCH_7,CAT_5,Exclusive logistical approach,Consequatur dignissimos commodi repellat itaque sint repellendus.,300 TL ve üzeri alışveriş,100,2025-07-05,2025-07-22,yapikredi
+yapikredi_CAMP_12,yapikredi_CARD_CUST_0272_1,MERCH_10,CAT_4,Fully-configurable scalable architecture,Veniam reprehenderit veniam error.,150 TL ve üzeri alışveriş,50,2025-07-13,2025-08-15,yapikredi
+yapikredi_CAMP_13,yapikredi_CARD_CUST_0373_3,MERCH_14,CAT_1,Pre-emptive user-facing paradigm,Dolores modi expedita tenetur iusto dolorum sint fugit.,250 TL ve üzeri alışveriş,100,2025-07-13,2025-07-22,yapikredi
+yapikredi_CAMP_14,yapikredi_CARD_CUST_0324_1,MERCH_4,CAT_1,Proactive leadingedge strategy,Amet magni dolorum blanditiis maiores eligendi illo.,250 TL ve üzeri alışveriş,100,2025-07-04,2025-07-20,yapikredi
+yapikredi_CAMP_15,yapikredi_CARD_CUST_0183_4,MERCH_9,CAT_5,Progressive mobile frame,Fugit ex voluptatum perferendis.,150 TL ve üzeri alışveriş,25,2025-07-11,2025-08-02,yapikredi
+yapikredi_CAMP_16,yapikredi_CARD_CUST_0416_1,MERCH_5,CAT_3,Compatible local knowledgebase,Recusandae eum praesentium.,500 TL ve üzeri alışveriş,100,2025-07-09,2025-08-01,yapikredi
+yapikredi_CAMP_17,yapikredi_CARD_CUST_0384_3,MERCH_1,CAT_3,Balanced global knowledge user,Libero nulla quae unde impedit.,300 TL ve üzeri alışveriş,100,2025-07-05,2025-08-03,yapikredi
+yapikredi_CAMP_18,yapikredi_CARD_CUST_0456_1,MERCH_10,CAT_4,Compatible 6thgeneration moratorium,Molestias asperiores tempora earum molestias blanditiis delectus.,150 TL ve üzeri alışveriş,50,2025-07-08,2025-07-25,yapikredi
+yapikredi_CAMP_19,yapikredi_CARD_CUST_0101_1,MERCH_9,CAT_5,Up-sized reciprocal matrices,Aut commodi rem natus velit numquam deleniti et.,300 TL ve üzeri alışveriş,50,2025-07-05,2025-07-25,yapikredi
+yapikredi_CAMP_20,yapikredi_CARD_CUST_0482_2,MERCH_3,CAT_4,Right-sized secondary installation,Officiis maiores eum corporis aperiam et.,250 TL ve üzeri alışveriş,100,2025-07-07,2025-08-04,yapikredi
+yapikredi_CAMP_21,yapikredi_CARD_CUST_0317_2,MERCH_1,CAT_3,Robust directional orchestration,Blanditiis tempora repellat id iure neque.,250 TL ve üzeri alışveriş,150,2025-07-10,2025-07-30,yapikredi
+yapikredi_CAMP_22,yapikredi_CARD_CUST_0053_1,MERCH_20,CAT_3,Re-engineered actuating info-mediaries,Amet deleniti quasi asperiores.,300 TL ve üzeri alışveriş,25,2025-07-13,2025-08-12,yapikredi
+yapikredi_CAMP_23,yapikredi_CARD_CUST_0272_1,MERCH_19,CAT_2,Managed homogeneous process improvement,Ratione hic neque reprehenderit dicta veniam.,150 TL ve üzeri alışveriş,100,2025-07-05,2025-08-08,yapikredi
+yapikredi_CAMP_24,yapikredi_CARD_CUST_0231_2,MERCH_15,CAT_3,Upgradable intermediate hierarchy,Veritatis eligendi aut laboriosam corrupti aliquam.,250 TL ve üzeri alışveriş,50,2025-07-12,2025-08-11,yapikredi
+yapikredi_CAMP_25,yapikredi_CARD_CUST_0204_3,MERCH_17,CAT_4,Inverse 5thgeneration groupware,Exercitationem laudantium ullam animi officia.,300 TL ve üzeri alışveriş,50,2025-07-10,2025-08-01,yapikredi
+yapikredi_CAMP_26,yapikredi_CARD_CUST_0463_1,MERCH_18,CAT_5,Networked heuristic portal,Possimus deserunt nostrum modi.,300 TL ve üzeri alışveriş,100,2025-07-06,2025-08-13,yapikredi
+yapikredi_CAMP_27,yapikredi_CARD_CUST_0119_3,MERCH_16,CAT_3,Persevering stable framework,Error libero eligendi quis.,500 TL ve üzeri alışveriş,50,2025-07-07,2025-08-04,yapikredi
+yapikredi_CAMP_28,yapikredi_CARD_CUST_0142_2,MERCH_2,CAT_2,Decentralized motivating hardware,Accusantium corrupti asperiores voluptatum.,150 TL ve üzeri alışveriş,25,2025-07-10,2025-07-20,yapikredi
+yapikredi_CAMP_29,yapikredi_CARD_CUST_0093_2,MERCH_6,CAT_4,Persevering hybrid focus group,Eaque fugiat expedita minus error nisi sit omnis.,500 TL ve üzeri alışveriş,150,2025-07-07,2025-07-27,yapikredi
+yapikredi_CAMP_30,yapikredi_CARD_CUST_0129_1,MERCH_2,CAT_2,Enhanced composite protocol,Eius odio quaerat nesciunt amet aut.,150 TL ve üzeri alışveriş,50,2025-07-18,2025-07-29,yapikredi
+yapikredi_CAMP_31,yapikredi_CARD_CUST_0233_1,MERCH_9,CAT_5,User-centric dedicated moratorium,At nostrum doloribus vitae nam voluptas minima.,150 TL ve üzeri alışveriş,50,2025-07-07,2025-08-12,yapikredi
+yapikredi_CAMP_32,yapikredi_CARD_CUST_0441_2,MERCH_8,CAT_3,Synchronized intangible core,Eaque voluptatem numquam ducimus minus corrupti saepe nesciunt.,250 TL ve üzeri alışveriş,50,2025-07-11,2025-08-11,yapikredi
+yapikredi_CAMP_33,yapikredi_CARD_CUST_0373_4,MERCH_10,CAT_4,Exclusive optimizing concept,Quo excepturi voluptatum ullam dolor ut.,300 TL ve üzeri alışveriş,50,2025-07-04,2025-07-23,yapikredi
+yapikredi_CAMP_34,yapikredi_CARD_CUST_0047_3,MERCH_14,CAT_1,Focused discrete utilization,Dicta perspiciatis voluptate alias consequuntur ea nobis.,500 TL ve üzeri alışveriş,25,2025-07-04,2025-07-26,yapikredi
+yapikredi_CAMP_35,yapikredi_CARD_CUST_0077_1,MERCH_8,CAT_3,Configurable foreground standardization,Quas quidem suscipit.,150 TL ve üzeri alışveriş,150,2025-07-18,2025-08-12,yapikredi
+yapikredi_CAMP_36,yapikredi_CARD_CUST_0314_2,MERCH_9,CAT_5,Cross-group empowering methodology,Vel labore natus eligendi quas.,500 TL ve üzeri alışveriş,25,2025-07-09,2025-07-19,yapikredi
+yapikredi_CAMP_37,yapikredi_CARD_CUST_0411_2,MERCH_17,CAT_4,Fundamental discrete moderator,Perferendis quia quos repudiandae.,500 TL ve üzeri alışveriş,25,2025-07-04,2025-07-21,yapikredi
+yapikredi_CAMP_38,yapikredi_CARD_CUST_0010_1,MERCH_9,CAT_5,Fundamental real-time budgetary management,Occaecati alias suscipit magnam atque deleniti.,250 TL ve üzeri alışveriş,50,2025-07-11,2025-07-27,yapikredi
+yapikredi_CAMP_39,yapikredi_CARD_CUST_0030_1,MERCH_20,CAT_3,Mandatory system-worthy frame,Aliquid in corporis earum explicabo amet a.,150 TL ve üzeri alışveriş,25,2025-07-12,2025-07-20,yapikredi
+yapikredi_CAMP_40,yapikredi_CARD_CUST_0322_2,MERCH_6,CAT_4,Exclusive heuristic customer loyalty,Dignissimos quae ea eaque maxime voluptatibus.,500 TL ve üzeri alışveriş,25,2025-07-14,2025-07-19,yapikredi
+yapikredi_CAMP_41,yapikredi_CARD_CUST_0479_1,MERCH_8,CAT_3,Customizable fault-tolerant challenge,Tempora quia minus at veritatis facere nisi.,250 TL ve üzeri alışveriş,25,2025-07-13,2025-07-28,yapikredi
+yapikredi_CAMP_42,yapikredi_CARD_CUST_0234_1,MERCH_12,CAT_4,Robust multi-tasking architecture,Nihil iure laboriosam id distinctio atque.,500 TL ve üzeri alışveriş,100,2025-07-15,2025-08-01,yapikredi
+yapikredi_CAMP_43,yapikredi_CARD_CUST_0417_2,MERCH_19,CAT_2,Realigned background hub,Reprehenderit repellendus tenetur nemo nobis explicabo.,500 TL ve üzeri alışveriş,100,2025-07-07,2025-07-22,yapikredi
+yapikredi_CAMP_44,yapikredi_CARD_CUST_0265_3,MERCH_2,CAT_2,Robust homogeneous support,Incidunt adipisci voluptates.,150 TL ve üzeri alışveriş,150,2025-07-07,2025-08-09,yapikredi
+yapikredi_CAMP_45,yapikredi_CARD_CUST_0005_3,MERCH_1,CAT_3,Virtual context-sensitive leverage,Nobis occaecati dolores natus recusandae itaque maxime.,250 TL ve üzeri alışveriş,150,2025-07-04,2025-08-10,yapikredi
+yapikredi_CAMP_46,yapikredi_CARD_CUST_0343_1,MERCH_14,CAT_1,Multi-layered responsive throughput,Cumque tenetur provident reprehenderit ratione perferendis.,300 TL ve üzeri alışveriş,50,2025-07-04,2025-08-02,yapikredi
+yapikredi_CAMP_47,yapikredi_CARD_CUST_0051_3,MERCH_15,CAT_3,Configurable asymmetric superstructure,Nobis dolor eius asperiores reprehenderit.,150 TL ve üzeri alışveriş,100,2025-07-12,2025-07-21,yapikredi
+yapikredi_CAMP_48,yapikredi_CARD_CUST_0069_2,MERCH_1,CAT_3,Profound optimizing service-desk,Veritatis ab recusandae facilis fugit repellat.,150 TL ve üzeri alışveriş,100,2025-07-11,2025-08-15,yapikredi
+yapikredi_CAMP_49,yapikredi_CARD_CUST_0101_1,MERCH_6,CAT_4,Pre-emptive value-added firmware,Sapiente magnam minus nesciunt sunt sed.,300 TL ve üzeri alışveriş,50,2025-07-09,2025-07-28,yapikredi
+yapikredi_CAMP_50,yapikredi_CARD_CUST_0222_2,MERCH_3,CAT_4,Expanded even-keeled superstructure,Distinctio rerum illo veniam perspiciatis officia.,500 TL ve üzeri alışveriş,150,2025-07-04,2025-07-26,yapikredi
