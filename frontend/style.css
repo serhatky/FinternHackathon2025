@@ -1,0 +1,167 @@
+/* Genel Stil */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f7fb;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(90deg, #2b6777, #4ba3c7);
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+h1 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 30px;
+  color: #2b6777;
+  font-weight: 500;
+}
+
+section {
+  padding: 30px;
+  max-width: 960px;
+  margin: auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+}
+
+button {
+  background: linear-gradient(to right, #52ab98, #3c9080);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button:hover {
+  background: linear-gradient(to right, #3c9080, #2b6777);
+}
+
+.card-slider {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  padding: 15px 0;
+}
+
+.card-item {
+  min-width: 180px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  transition: transform 0.2s;
+}
+
+.card-item:hover {
+  transform: scale(1.05);
+}
+
+.card-item h3 {
+  margin: 0 0 8px;
+  color: #2b6777;
+}
+
+ul#campaignList {
+  list-style: none;
+  padding: 0;
+}
+
+ul#campaignList li {
+  background-color: #ffffff;
+  padding: 12px 15px;
+  margin-bottom: 12px;
+  border-left: 6px solid #52ab98;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 5px;
+}
+
+.recommendation-box {
+  background: #e8f6f3;
+  border-left: 6px solid #2b6777;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.05);
+  margin-top: 20px;
+  position: relative;
+}
+
+.recommendation-box::before {
+  content: '🤖';
+  font-size: 28px;
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  background: #fff;
+  border-radius: 50%;
+  padding: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.modal-content {
+  background-color: #ffffff;
+  padding: 35px;
+  border-radius: 10px;
+  width: 350px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.modal-content h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #2b6777;
+}
+
+
+
+
+

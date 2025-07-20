@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>SmartWall - Akıllı Cüzdan</title>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .modal {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      display: flex; align-items: center; justify-content: center;
+      z-index: 9999;
+    }
+
+    .modal-content {
+      background: white;
+      padding: 24px;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+      max-width: 400px;
+      text-align: center;
+      animation: fadeIn 0.5s ease;
+    }
+
+    .modal-actions button {
+      margin: 8px;
+      padding: 10px 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .modal-actions button:hover {
+      background: #f0f0f0;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .recommendation-box {
+      background: #e8f8f5;
+      padding: 16px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>👛 SmartWallet'a Hoş Geldiniz</h1>
+    <p>Kullanıcıya özel kampanyalar, AI önerileri ve kart yönetimi</p>
+  </header>
+
+  <!-- Login Ekranı -->
+  <section id="loginModal" class="modal">
+    <div class="modal-content">
+      <h2>🧑 Kullanıcı Seç</h2>
+      <select id="userSelect">
+        <option value="">-- Kullanıcı Seçin --</option>
+        <option value="test1">test1</option>
+        <option value="test2">test2</option>
+        <option value="test3">test3</option>
+        <option value="test4">test4</option>
+        <option value="test5">test5</option>
+      </select>
+      <button id="confirmUser">Giriş Yap</button>
+    </div>
+  </section>
+
+  <!-- Kartlar -->
+  <section id="cardSection">
+    <h2>💳 Kartlarım</h2>
+    <div id="cardSlider" class="card-slider"></div>
+  </section>
+
+  <!-- Harcama Girişi ve Kampanya Hesaplama -->
+  <section id="campaignSection">
+    <h2>🛍️ Harcama Bilgisi</h2>
+    <div class="form-group">
+      <label for="category">Kategori:</label>
+      <select id="category">
+        <option value="">-- Kategori Seçin --</option>
+        <option value="CAT_1">Giyim</option>
+        <option value="CAT_2">Market</option>
+        <option value="CAT_3">Kozmetik</option>
+        <option value="CAT_4">Eğlence</option>
+        <option value="CAT_5">Eğitim</option>
+        <option value="CAT_6">Sağlık</option>
+        <option value="CAT_7">Petrol</option>
+        <option value="CAT_8">Elektronik</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="store">Mağaza:</label>
+      <select id="store">
+        <option value="">-- Mağaza Seçin --</option>
+        <option value="MERCH_1">X Market</option>
+        <option value="MERCH_2">Moda Dünyası</option>
+        <option value="MERCH_3">Tekno AVM</option>
+        <option value="MERCH_4">Benzin İstasyonu</option>
+        <option value="MERCH_5">E-Shop</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="amount">Tutar:</label>
+      <input type="number" id="amount" placeholder="Harcama miktarı girin">
+    </div>
+
+    <button id="calculateButton">Kampanyaları Hesapla</button>
+  </section>
+
+  <!-- Kampanya Listesi -->
+  <section id="campaignListSection">
+    <h2>🎯 Uygun Kampanyalar</h2>
+    <ul id="campaignList"></ul>
+    <button id="smartSelectButton" style="display:none;">AI ile En İyisini Seç</button>
+  </section>
+
+  <!-- AI Öneri -->
+  <section id="smartSelectionResult" style="display:none;">
+    <h2>🤖 SmartWall AI Önerisi</h2>
+    <div id="recommendedCard" class="recommendation-box"></div>
+  </section>
+
+  <!-- AI Öneri Pop-up Modal -->
+  <div id="aiModal" class="modal" style="display: none;">
+    <div class="modal-content">
+      <h2>🎯 AI Önerdi!</h2>
+      <p id="aiModalText">En uygun kart ve kampanya önerisi burada görünecek.</p>
+      <div class="modal-actions">
+        <button onclick="handleUserResponse('katil')">Katıl</button>
+        <button onclick="handleUserResponse('reddet')">Reddet</button>
+        <button onclick="handleUserResponse('hatirlat')">Sonra Hatırlat</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 📊 Kişisel Finans Raporu -->
+  <section id="financeReportSection">
+    <h2>📊 Kişisel Finans Raporu</h2>
+    <button id="generateReportButton">Raporu Oluştur</button>
+    <div id="financeReport" class="recommendation-box" style="margin-top: 15px;"></div>
+  </section>
+
+  <script src="script.js"></script>
+
+  <script>
+    
+
+    function showAIModal(message) {
+      document.getElementById('aiModalText').textContent = message;
+      document.getElementById('aiModal').style.display = 'flex';
+    }
+
+    function handleUserResponse(response) {
+      document.getElementById('aiModal').style.display = 'none';
+      alert(`Kullanıcı ${response.toUpperCase()} dedi!`);
+    }
+
+    // Giriş yapılınca kullanıcıyı ata
+    window.addEventListener('DOMContentLoaded', () => {
+      const loginModal = document.getElementById('loginModal');
+      const userSelect = document.getElementById('userSelect');
+      const confirmButton = document.getElementById('confirmUser');
+
+      confirmButton.addEventListener('click', () => {
+        const selectedUser = userSelect.value;
+        if (!selectedUser) return alert("Lütfen bir kullanıcı seçin");
+        globalCustomerId = selectedUser;
+        loginModal.style.display = 'none';
+      });
+    });
+
+    // 📊 Finans Raporu Butonu
+    const generateReportButton = document.getElementById('generateReportButton');
+    const financeReportDiv = document.getElementById('financeReport');
+
+    generateReportButton.addEventListener('click', async () => {
+      if (!globalCustomerId) return alert("Lütfen önce giriş yapın.");
+
+      financeReportDiv.innerHTML = "⏳ AI finansal analiz yapıyor...";
+
+      try {
+        const res = await fetch('http://localhost:5005/api/ai/finance-report', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ global_customer_id: globalCustomerId })
+        });
+
+        const data = await res.json();
+
+        if (data.report) {
+          financeReportDiv.innerHTML = `<div style="white-space: pre-wrap;">${data.report}</div>`;
+        } else {
+          financeReportDiv.innerHTML = "⚠️ Rapor alınamadı.";
+        }
+
+      } catch (err) {
+        financeReportDiv.innerHTML = `❌ Hata oluştu: ${err.message}`;
+        console.error(err);
+      }
+    });
+  </script>
+</body>
+</html>
+

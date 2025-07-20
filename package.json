@@ -1,0 +1,26 @@
+{
+  "name": "smartfin",
+  "version": "1.0.0",
+  "description": "SmartFin çoklu sunucu uygulaması",
+  "main": "index.js",
+  "scripts": {
+    "start:fiba": "node fibabanka-server/index.js",
+    "start:garanti": "node garanti-server/index.js",
+    "start:ai": "node ai-server/server.js",
+    "start:frontend": "npx live-server frontend",
+    "start:all": "concurrently \"npm run start:fiba\" \"npm run start:garanti\" \"npm run start:ai\" \"npm run start:frontend\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0",
+    "live-server": "^1.2.2"
+  }
+}
